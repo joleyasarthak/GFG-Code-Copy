@@ -1,0 +1,16 @@
+{
+    "name": "Copy Comment Remover",
+    "version": "1.0",
+    "manifest_version": 3,
+    "author": "Sarthak Joleya",
+    "action":{
+    },
+    "content_scripts": [
+        {
+          "matches": [
+            "https://*.geeksforgeeks.org/*"
+          ],
+          "js": ["script.js"]
+        }
+      ]
+}
