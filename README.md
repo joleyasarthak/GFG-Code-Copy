@@ -8,4 +8,4 @@ Usage:
 4) Enjoy!
 
 # DEMO
-![](https://i.ibb.co/drnVJ0R/demo.gif)
+![](https://i.ibb.co/Bn6jHDw/demo.gif)
