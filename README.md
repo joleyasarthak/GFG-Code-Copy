@@ -6,3 +6,6 @@ Usage:
 2) Extract and Load Unpacked from Extensions tab in your Browser.
 3) Just use the Copy button provided at the end of each code snippet in any GFG article.
 4) Enjoy!
+
+# DEMO
+![](https://i.ibb.co/drnVJ0R/demo.gif)
