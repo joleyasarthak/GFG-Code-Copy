@@ -1,16 +1,4 @@
-// Remove Comments Logic
-
-const removeComments = (string) => {
-  return string
-    .replace(/\/\*[\s\S]*?\*\/|(?<=[^:])\/\/.*|^\/\/.*/g, " ")
-    .replace(/^\s*\n/gm, " ")
-    .replace("Copy", " ")
-    .replace(/\u00A0/g, " ");
-};
-
-var arr = document.getElementsByClassName("code-container");
-
-for (let i = 0; i < arr.length; i++) {
+export const createButton = () => {
   const button = document.createElement("button");
   button.textContent = "Copy";
   button.style.backgroundColor = "#FEFFFE";
@@ -30,6 +18,4 @@ for (let i = 0; i < arr.length; i++) {
     navigator.clipboard.writeText(removeComments(arr[i].innerText));
     alert("Copied Successfully");
   };
-  arr[i].prepend(button);
-  // arr[i].innerText = removeComments(arr[i].innerText);
-}
+};
